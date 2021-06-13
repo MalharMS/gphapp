@@ -1,0 +1,162 @@
+body{
+    font-family: 'Prompt', sans-serif;
+    background-color: #eaf5ff;
+}
+#menu{
+	width: 35px;
+	height: 30px;
+	margin: 30px 0 20px 20px;
+	cursor: pointer;
+	
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: #F07C00;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
+.nav li a{
+	color: #fff;
+	text-decoration: none;
+    letter-spacing: 2px;
+	font-family: 'Josefin sans';
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.nav li{
+	list-style: none;
+	padding: 16px 0;
+}
+.nav{
+	padding: 0;
+	margin: 0 20px;
+	transition: 0.3s ease;
+	display: none;
+}
+.menu-bg, #menu-bar{
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	margin: 30px 0 20px 20px;
+	background: radial-gradient(circle,#009035,#088f3a);
+	border-radius: 50%;
+	transition: 0.3s ease;
+}
+#menu-bar{
+	z-index: 2;	
+}
+.change-bg{
+	width: 550px;
+	height: 540px;
+	transform: translate(-60%,-30%);
+}
+.change .bar{
+	background-color: #ffffff;
+}
+.change #bar1{
+	transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-6px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change{
+	display: block;
+}
+
+
+.grid {
+    margin-top: 10%;
+}
+
+.grid h1 {
+    font-family: 'Josefin sans', sans-serif;
+    font-size: 32px;
+    margin-bottom: 18px;
+    margin-top: 88px;
+    text-align: center;
+    color: #000;
+}
+
+
+.element {
+    display: flex;
+    text-align: center;
+	flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main {
+    background-color: #ffffff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 380px;
+    padding: 47px;
+    color: #b1b1b1;
+    position: relative;
+	border-radius: 5px;
+}
+
+.main h3{
+    color: #001d3d;
+    font-size: 25px;
+}
+
+.main p{
+    color: #777777;
+    font-size: 15px;
+    margin: 8px 5px ;
+    padding: 5px;
+}
+
+.btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F07C00;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 100px;
+    box-shadow: -0.5px 1px 30px 2px #c7c7c7;
+    position: relative;
+	top: 12px;
+}
+
+.imgs {
+	margin-top: 20px;
+}
+
+.footer {
+	margin-top: 10px;
+	padding: 0;
+	position: relative;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.ftext {
+	color: #8a8a8a;
+	text-align: center;
+	font-size: 15px;
+}

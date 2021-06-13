@@ -1,0 +1,149 @@
+body{
+    font-family: 'Prompt', sans-serif;
+    background-color: #eaf5ff;
+}
+#menu{
+	width: 35px;
+	height: 30px;
+	margin: 30px 0 20px 20px;
+	cursor: pointer;
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: #F07C00;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
+.nav li a{
+	color: #fff;
+	text-decoration: none;
+    letter-spacing: 2px;
+	font-weight: 900;
+}
+
+.nav li{
+	list-style: none;
+	padding: 16px 0;
+}
+.nav{
+	padding: 0;
+	margin: 0 20px;
+	transition: 0.3s ease;
+	display: none;
+}
+.menu-bg, #menu-bar{
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	margin: 30px 0 20px 20px;
+	background: radial-gradient(circle,#009035,#088f3a);
+
+	border-radius: 50%;
+	transition: 0.3s ease;
+}
+#menu-bar{
+	z-index: 2;	
+}
+.change-bg{
+	width: 550px;
+	height: 540px;
+	transform: translate(-60%,-30%);
+}
+.change .bar{
+	background-color: white;
+}
+.change #bar1{
+	transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-6px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change{
+	display: block;
+}
+
+.grid {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 50%;
+	margin-bottom: 50px ;
+}
+
+
+
+
+
+.main {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+	align-items: center;
+    background-color: #ddf7e5;
+    width: 120px;
+	margin: 6px;
+    padding: 10px 20px; 
+	position: relative;
+	border-radius: 10px;
+}
+
+
+.main h3{
+    color: #001d3d;
+    font-size: 18px;
+}
+
+.main p{
+    color: #a8a8a8;
+    font-size: 17px;
+    margin: 12px ;
+    padding: 10px;
+}
+
+.btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #080f25;
+    border-radius: 100px;
+    box-shadow: -0.5px 1px 30px 2px #c7c7c7;
+    
+}
+
+.footer {
+	margin-top: 5px;
+	padding: 0;
+	position: relative;
+	right: 0;
+	bottom: -60px;
+	display: flex;
+	justify-content: center;
+}
+
+.ftext {
+	color: #8a8a8a;
+	text-align: center;
+	font-size: 15px;
+}
